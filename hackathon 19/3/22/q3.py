@@ -15,14 +15,14 @@
 # # 1
 # # 9
 
-# capacity=int(input("capacity of bucket: "))
-# x=int(input("liters of water in the bucket: "))
-# if capacity>x:
-#    print("water to be filled is:",capacity-x)
-# elif capacity<x:
-#    print("invallid")
-# else:
-#    print("need not to filled")
+capacity=int(input("capacity of bucket: "))
+x=int(input("liters of water in the bucket: "))
+if capacity>x:
+   print("water to be filled is:",capacity-x)
+elif capacity<x:
+   print("invallid")
+else:
+   print("need not to filled")
 
 
 

@@ -17,19 +17,19 @@
 # Yes
 # No
 
-# assignment=3
-# timeline=10
-# x=float(input("enter the time he start:pm ",))
-# if timeline>=x+3:
-#    print("yes")
-# else:
-#    print("no")
+assignment=3
+timeline=10
+x=float(input("enter the time he start:pm ",))
+if timeline>=x+3:
+   print("yes")
+else:
+   print("no")
 
-
-# def assign_submit(assignment,timeline):
-#    if timeline>=3+1:
-#       return "YES"
-#    else:
-#       return "NO"
-# x=int(input("time he start doing assignment: "))
-# print(assign_submit(3,10))
+###
+def assign_submit(assignment,timeline):
+   if timeline>=3+1:
+      return "YES"
+   else:
+      return "NO"
+x=int(input("time he start doing assignment: "))
+print(assign_submit(3,10))

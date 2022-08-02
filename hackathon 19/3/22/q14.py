@@ -14,14 +14,14 @@
 # Output: true
 
 ####
-# def ispowerof4(n):
-#    if(n == 0):
-#       return 0
-#    while n!=1:
-#       if n%4!=0:
-#          return False
-#       n=n//4
-#    return True
-# n=int(input("enter the number: "))
-# print(ispowerof4(n))
+def ispowerof4(n):
+   if(n == 0):
+      return 0
+   while n!=1:
+      if n%4!=0:
+         return False
+      n=n//4
+   return True
+n=int(input("enter the number: "))
+print(ispowerof4(n))
 

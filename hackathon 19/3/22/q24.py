@@ -11,7 +11,7 @@
 # If you're really stuck, unlock solutions in the Solutions tab.
 
 
-# def string_buffer(a,b):
-#    c=a+b
-#    return c
-# print(string_buffer(3,4))
+def string_buffer(a,b):
+   c=a+b
+   return c
+print(string_buffer(3,4))

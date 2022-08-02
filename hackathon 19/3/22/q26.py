@@ -9,8 +9,8 @@
 # # Don't forget to return the result.
 
 
-# def convert_seconds():
-#    b=n*60
-#    return "total seconds:",b
-# n=int(input("enter total minutes"))
-# print(convert_seconds())
+def convert_seconds():
+   b=n*60
+   return "total seconds:",b
+n=int(input("enter total minutes"))
+print(convert_seconds())

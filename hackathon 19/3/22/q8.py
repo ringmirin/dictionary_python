@@ -21,25 +21,25 @@
 # # SAME
 
 
-# bike=int(input("minutes took by bike: "))
-# car=int(input("minutes took by cars: "))
-# if bike<car:
-#    print("BIKE")
-# elif bike>car:
-#    print("CARS")
-# else:
-#    print("SAME")
+bike=int(input("minutes took by bike: "))
+car=int(input("minutes took by cars: "))
+if bike<car:
+   print("BIKE")
+elif bike>car:
+   print("CARS")
+else:
+   print("SAME")
 
 
 ######## 
 
-# def traveling():
-#    if bike<car:
-#       return "BIKE"
-#    elif bike>car:
-#       return "CAR"
-#    else:
-#       return "SAME"
-# bike=int(input("minute took by bike: "))
-# car=int(input("minute took by car: "))
-# print(traveling())
+def traveling():
+   if bike<car:
+      return "BIKE"
+   elif bike>car:
+      return "CAR"
+   else:
+      return "SAME"
+bike=int(input("minute took by bike: "))
+car=int(input("minute took by car: "))
+print(traveling())

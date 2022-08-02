@@ -13,17 +13,17 @@
 # 25
 # 50
 
-# x=int(input("total of Rs.10 coins: "))
-# y=int(input("total of Rs.5 coins: "))
-# total=x*10+y*5
-# print("total money he have: ",total)
+x=int(input("total of Rs.10 coins: "))
+y=int(input("total of Rs.5 coins: "))
+total=x*10+y*5
+print("total money he have: ",total)
 
 
 #####
-# def coins():
-#    a=x*10
-#    b=y*5
-#    return a+b
-# x=int(input("enter the 10 coins: "))
-# y=int(input("enter 5 coins: "))
-# print(coins())
+def coins():
+   a=x*10
+   b=y*5
+   return a+b
+x=int(input("enter the 10 coins: "))
+y=int(input("enter 5 coins: "))
+print(coins())

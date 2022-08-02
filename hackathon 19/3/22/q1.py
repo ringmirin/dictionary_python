@@ -27,11 +27,11 @@ i=0
 sum=" "
 while i<len(a):
    sum=sum+str(a[i]%10)
-#    c=int(sum)
-#    i+=1
-# if c%10==0:
-#       print("yes")
-# else:
-#       print("no")
+   c=int(sum)
+   i+=1
+if c%10==0:
+      print("yes")
+else:
+      print("no")
    
 

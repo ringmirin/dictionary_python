@@ -29,10 +29,10 @@
 # show a battery low notification.
 
 
-# def battery():
-#    if user<=15:
-#       return "battery low"
-#    else:
-#       return "need no charge"
-# user=int(input("enter the percent of battery: "))
-# print(battery())
+def battery():
+   if user<=15:
+      return "battery low"
+   else:
+      return "need no charge"
+user=int(input("enter the percent of battery: "))
+print(battery())

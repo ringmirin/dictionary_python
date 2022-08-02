@@ -3,13 +3,13 @@
 # string that have capital letters.
 # For example, calling capital_indexes("HeLlO") should return the list [0, 2, 4].
 
-# def capital_indexes(n):
-#    i=0
-#    list=[]
-#    while i<len(n):
-#       if n[i].isupper():
-#          list.append(i)
-#       i+=1
-#    return list
-# n=input("enter your string:")
-# print(capital_indexes(n))
+def capital_indexes(n):
+   i=0
+   list=[]
+   while i<len(n):
+      if n[i].isupper():
+         list.append(i)
+      i+=1
+   return list
+n=input("enter your string:")
+print(capital_indexes(n))

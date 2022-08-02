@@ -16,21 +16,21 @@
 # 6
 
 #####
-# bike=int(input("enter the total of bikes: "))
-# car=int(input("enter the total of bikes: "))
-# biketyres=2
-# cartyres=4
-# print("total number of tyres: ",bike*biketyres+car*cartyres)
+bike=int(input("enter the total of bikes: "))
+car=int(input("enter the total of bikes: "))
+biketyres=2
+cartyres=4
+print("total number of tyres: ",bike*biketyres+car*cartyres)
 
 
 ########
-# def tyres():
-#    biketyres=2
-#    cartyres=4
-#    bc=biketyres*bike+cartyres*car
-#    return bc
-# bike=int(input("enter no of bike: "))
-# car=int(input("enter no of car: "))
-# print(tyres())
+def tyres():
+   biketyres=2
+   cartyres=4
+   bc=biketyres*bike+cartyres*car
+   return bc
+bike=int(input("enter no of bike: "))
+car=int(input("enter no of car: "))
+print(tyres())
    
    

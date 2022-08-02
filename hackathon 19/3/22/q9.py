@@ -22,9 +22,9 @@
 # Good
 # Not Good
 
-# bits=int(input("total number of bits: "))
-# if bits%4==0:
-#    print("GOOD")
-# else:
-#    print("NOT GOOD")
+bits=int(input("total number of bits: "))
+if bits%4==0:
+   print("GOOD")
+else:
+   print("NOT GOOD")
 

@@ -10,19 +10,19 @@
 # Input: num1 = "123", num2 = "456"
 # Output: "56088"
 
-# num1="2"
-# num2="3"
+num1="2"
+num2="3"
 
-# num=int(num1)*int(num2)
-# s=str(num)
-# # print(repr(s))
-# print("\'"+s+"\'")
+num=int(num1)*int(num2)
+s=str(num)
+# print(repr(s))
+print("\'"+s+"\'")
 
 ###
-# def non_negative():
-#    num1="123"
-#    num2="456"
-#    num=int(num1)*int(num2)
-#    s=str(num)
-#    return "\'"+s+"\'"
-# print(non_negative())
+def non_negative():
+   num1="123"
+   num2="456"
+   num=int(num1)*int(num2)
+   s=str(num)
+   return "\'"+s+"\'"
+print(non_negative())

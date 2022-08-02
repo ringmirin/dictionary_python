@@ -23,36 +23,36 @@
 
 
 
-# pretty=2,3,9
-# left=int(input("enter the leading number: "))
-# right=int(input("enter the end number: "))
-# i=left
-# list=[]
-# while i<=right:
-#    list.append(i)
-#    i+=1
-# j=0
-# sum=" "
-# list1=[]
-# count=0
-# while j<len(list):
-#    sum=list[j]%10
-#    list1.append(sum)
-#    if list1[j]==2 or list1[j]==3 or list1[j]==9:
-#       count+=1
-#    j+=1
-# print(count)
+pretty=2,3,9
+left=int(input("enter the leading number: "))
+right=int(input("enter the end number: "))
+i=left
+list=[]
+while i<=right:
+   list.append(i)
+   i+=1
+j=0
+sum=" "
+list1=[]
+count=0
+while j<len(list):
+   sum=list[j]%10
+   list1.append(sum)
+   if list1[j]==2 or list1[j]==3 or list1[j]==9:
+      count+=1
+   j+=1
+print(count)
 
 ####
-# def counting():
-#    i=l
-#    count=0
-#    while i<=r:
-#       a=i%10
-#       if a==2 or a==3 or a==9:
-#          count+=1
-#       i+=1
-#    return count
-# l=int(input("enter the leading number: "))
-# r=int(input("enter the end number: "))
-# print(counting())
+def counting():
+   i=l
+   count=0
+   while i<=r:
+      a=i%10
+      if a==2 or a==3 or a==9:
+         count+=1
+      i+=1
+   return count
+l=int(input("enter the leading number: "))
+r=int(input("enter the end number: "))
+print(counting())

@@ -11,7 +11,7 @@
 # # If you get stuck on a challenge, find help in the Resources tab.
 # # If you're really stuck, unlock solutions in the Solutions tab.
 
-# def fun(a):
-#    b=a+1
-#    return b
-# print(fun(-3))
+def fun(a):
+   b=a+1
+   return b
+print(fun(-3))

@@ -10,29 +10,29 @@
 # Input: nums = [0]
 # Output: [0]
 
-# nums=[0,1,0,3,12]
-# i=0
-# temp=[]
-# zeroes=[]
-# while i<len(nums):
-#    if nums[i]!=0:
-#       temp.append(nums[i])
-#    else:
-#       zeroes.append(nums[i])
-#    i+=1
-# print(temp+zeroes)
+nums=[0,1,0,3,12]
+i=0
+temp=[]
+zeroes=[]
+while i<len(nums):
+   if nums[i]!=0:
+      temp.append(nums[i])
+   else:
+      zeroes.append(nums[i])
+   i+=1
+print(temp+zeroes)
 
 
  #####
-# def move_zero(nums):
-#    i=0
-#    temp=[]
-#    zeroes=[]
-#    while i<len(nums):
-#       if nums[i]!=0:
-#          temp.append(nums[i])
-#       else:
-#          zeroes.append(nums[i])
-#       i+=1
-#    return temp+zeroes
-# print(move_zero([0,1,0,3,12]))
+def move_zero(nums):
+   i=0
+   temp=[]
+   zeroes=[]
+   while i<len(nums):
+      if nums[i]!=0:
+         temp.append(nums[i])
+      else:
+         zeroes.append(nums[i])
+      i+=1
+   return temp+zeroes
+print(move_zero([0,1,0,3,12]))

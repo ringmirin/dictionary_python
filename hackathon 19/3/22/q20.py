@@ -6,20 +6,20 @@
 # You may assume that no numbers are smaller or larger than -100 and 100.
 
 
-# def largest_difference(n):
-#    i=0
-#    great=n[0]
-#    small=n[0]
-#    while i<len(n):
-#       if n[i]>great:
-#          great=n[i]
-#       if n[i]<small:
-#          small=n[i]
-#       i+=1
-#    print("great:",great)
-#    print("small:",small)
-#    difference=great-small
-#    return "difference:",difference
-# print(largest_difference([3,5,2,9,6,1]))
+def largest_difference(n):
+   i=0
+   great=n[0]
+   small=n[0]
+   while i<len(n):
+      if n[i]>great:
+         great=n[i]
+      if n[i]<small:
+         small=n[i]
+      i+=1
+   print("great:",great)
+   print("small:",small)
+   difference=great-small
+   return "difference:",difference
+print(largest_difference([3,5,2,9,6,1]))
 
    

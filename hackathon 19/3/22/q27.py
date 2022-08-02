@@ -9,12 +9,12 @@
 # # The use of the len() function is prohibited.
 
 
-# def length(n):
-#    i=0
-#    c=str(n)
-#    while c[i:]:
-#       i=i+1
-#    return i
-# print(length(122))
+def length(n):
+   i=0
+   c=str(n)
+   while c[i:]:
+      i=i+1
+   return i
+print(length(122))
 
 
